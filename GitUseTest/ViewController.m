@@ -14,6 +14,12 @@
 
 @implementation ViewController
 
+#pragma mark - IBActions
+
+- (IBAction)clickTheButton:(id)sender {
+    NSLog(@"This is a Git Test");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
